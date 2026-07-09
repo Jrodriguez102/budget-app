@@ -19,3 +19,4 @@ out/
 
 # os
 .DS_Store
+.Rhistory
