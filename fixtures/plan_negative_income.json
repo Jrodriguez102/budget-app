@@ -1,0 +1,10 @@
+{
+  "status": "goals_paused_negative_income",
+  "message": "Your fixed expenses exceed your income this month. Goal contributions are paused until income or expenses change.",
+  "total_income": 2000,
+  "total_fixed_expenses": 2400,
+  "remaining_after_fixed": -400,
+  "goal_contributions": [],
+  "remaining_after_goals": -400,
+  "category_suggestions": []
+}

@@ -1,0 +1,16 @@
+{
+  "status": "no_variable_budget",
+  "message": "Your goal contributions exceed your leftover income. Any discretionary spending would come from reducing goal contributions or fixed expenses.",
+  "total_income": 3200,
+  "total_fixed_expenses": 2200,
+  "remaining_after_fixed": 1000,
+  "goal_contributions": [
+    {
+      "goal_id": "goal_emergency_fund",
+      "monthly_contribution": 1000,
+      "projected_completion_date": "2028-01-01"
+    }
+  ],
+  "remaining_after_goals": 0,
+  "category_suggestions": []
+}

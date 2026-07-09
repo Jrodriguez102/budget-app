@@ -1,0 +1,25 @@
+{
+  "status": "tight",
+  "message": "This covers only groceries and gas — there's little left for dining, entertainment, or other discretionary spending this month.",
+  "total_income": 3800,
+  "total_fixed_expenses": 2200,
+  "remaining_after_fixed": 1600,
+  "goal_contributions": [
+    {
+      "goal_id": "goal_emergency_fund",
+      "monthly_contribution": 1450,
+      "projected_completion_date": "2027-09-01"
+    }
+  ],
+  "remaining_after_goals": 150,
+  "category_suggestions": [
+    { "key": "groceries", "suggested_amount": 100, "favor_multiplier": 1.0 },
+    { "key": "dining_out", "suggested_amount": 0, "favor_multiplier": 1.0 },
+    { "key": "gas_transportation", "suggested_amount": 50, "favor_multiplier": 1.0 },
+    { "key": "entertainment", "suggested_amount": 0, "favor_multiplier": 1.0 },
+    { "key": "shopping", "suggested_amount": 0, "favor_multiplier": 1.0 },
+    { "key": "personal_care", "suggested_amount": 0, "favor_multiplier": 1.0 },
+    { "key": "travel", "suggested_amount": 0, "favor_multiplier": 1.0 },
+    { "key": "other", "suggested_amount": 0, "favor_multiplier": 1.0 }
+  ]
+}
