@@ -30,7 +30,7 @@ fixtures/   Example engine output JSON, for frontend dev without a live backend
 
 - **Backend / engine** (Julian): income & expense tracking, goal allocation logic,
   variable expense suggestion logic, API endpoints, (later) bank integration.
-- **Frontend** (friend): dashboard UI, forms for income/expenses/goals, rendering
+- **Frontend** (Jacob): dashboard UI, forms for income/expenses/goals, rendering
   the plan output (goal progress, suggested budgets, gap warnings) from the API
   contract below. Build against `fixtures/` first — no need to wait on a live backend.
 
