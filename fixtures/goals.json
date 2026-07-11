@@ -1,0 +1,68 @@
+[
+  {
+    "id": "goal_emergency_fund",
+    "name": "Emergency Fund",
+    "target_amount": 15000,
+    "target_date": null,
+    "current_amount": 6000,
+    "strategy": "fund_first",
+    "priority_rank": 1,
+    "weight": null,
+    "fixed_monthly_amount": null
+  },
+  {
+    "id": "goal_house_downpayment",
+    "name": "House Downpayment",
+    "target_amount": 60000,
+    "target_date": "2030-06-01",
+    "current_amount": 12000,
+    "strategy": "fund_first",
+    "priority_rank": 2,
+    "weight": null,
+    "fixed_monthly_amount": null
+  },
+  {
+    "id": "goal_car_downpayment",
+    "name": "Car Downpayment",
+    "target_amount": 8000,
+    "target_date": "2027-09-01",
+    "current_amount": 1200,
+    "strategy": "fixed_amount",
+    "priority_rank": null,
+    "weight": null,
+    "fixed_monthly_amount": 300
+  },
+  {
+    "id": "goal_investing_aggressive",
+    "name": "Investing - Aggressive",
+    "target_amount": null,
+    "target_date": null,
+    "current_amount": 4000,
+    "strategy": "proportional_weight",
+    "priority_rank": null,
+    "weight": 2,
+    "fixed_monthly_amount": null
+  },
+  {
+    "id": "goal_investing_passive",
+    "name": "Investing - Passive",
+    "target_amount": null,
+    "target_date": null,
+    "current_amount": 9000,
+    "strategy": "proportional_weight",
+    "priority_rank": null,
+    "weight": 1,
+    "fixed_monthly_amount": null
+  },
+  {
+    "id": "goal_smaller_items",
+    "name": "Smaller Items (gifts, gadgets, misc.)",
+    "target_amount": 1000,
+    "target_date": null,
+    "current_amount": 150,
+    "strategy": "proportional_weight",
+    "priority_rank": null,
+    "weight": 0.5,
+    "fixed_monthly_amount": null
+  }
+]
