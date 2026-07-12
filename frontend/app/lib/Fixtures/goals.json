@@ -8,7 +8,8 @@
     "strategy": "fund_first",
     "priority_rank": 1,
     "weight": null,
-    "fixed_monthly_amount": null
+    "fixed_monthly_amount": null,
+    "monthly_contribution_cap": 900
   },
   {
     "id": "goal_house_downpayment",
@@ -19,7 +20,8 @@
     "strategy": "fund_first",
     "priority_rank": 2,
     "weight": null,
-    "fixed_monthly_amount": null
+    "fixed_monthly_amount": null,
+    "monthly_contribution_cap": null
   },
   {
     "id": "goal_car_downpayment",
@@ -30,7 +32,8 @@
     "strategy": "fixed_amount",
     "priority_rank": null,
     "weight": null,
-    "fixed_monthly_amount": 300
+    "fixed_monthly_amount": 300,
+    "monthly_contribution_cap": null
   },
   {
     "id": "goal_investing_aggressive",
@@ -41,7 +44,8 @@
     "strategy": "proportional_weight",
     "priority_rank": null,
     "weight": 2,
-    "fixed_monthly_amount": null
+    "fixed_monthly_amount": null,
+    "monthly_contribution_cap": null
   },
   {
     "id": "goal_investing_passive",
@@ -52,7 +56,8 @@
     "strategy": "proportional_weight",
     "priority_rank": null,
     "weight": 1,
-    "fixed_monthly_amount": null
+    "fixed_monthly_amount": null,
+    "monthly_contribution_cap": null
   },
   {
     "id": "goal_smaller_items",
@@ -63,6 +68,7 @@
     "strategy": "proportional_weight",
     "priority_rank": null,
     "weight": 0.5,
-    "fixed_monthly_amount": null
+    "fixed_monthly_amount": null,
+    "monthly_contribution_cap": null
   }
 ]
