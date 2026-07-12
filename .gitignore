@@ -1,22 +1,8 @@
-# env
-.env
-.env.local
-
-# python
-venv/
-__pycache__/
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/budget.db
 *.pyc
-.pytest_cache/
-
-# node
-node_modules/
-.next/
-out/
-
-# db
-*.db
-*.sqlite3
-
-# os
 .DS_Store
+**/.DS_Store
 .Rhistory

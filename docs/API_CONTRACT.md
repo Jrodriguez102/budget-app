@@ -32,14 +32,15 @@ type GoalStrategy = "fund_first" | "proportional_weight" | "fixed_amount";
 
 type Goal = {
   id: string;
-  name: string;                // user-defined, free text
-  target_amount: number | null; // null = open-ended goal (e.g. "invest more")
-  target_date: string | null;   // ISO date, optional
-  current_amount: number;       // progress so far
+  name: string;
+  target_amount: number | null;
+  target_date: string | null;
+  current_amount: number;
   strategy: GoalStrategy;
-  priority_rank: number | null; // required if strategy = fund_first (lower = funded first)
-  weight: number | null;        // required if strategy = proportional_weight
-  fixed_monthly_amount: number | null; // required if strategy = fixed_amount
+  priority_rank: number | null;
+  weight: number | null;
+  fixed_monthly_amount: number | null;
+  monthly_contribution_cap: number | null; // NEW — see note below
 };
 ```
 
