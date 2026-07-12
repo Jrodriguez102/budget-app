@@ -51,4 +51,15 @@ export type Goal = {
   priority_rank: number | null;
   weight: number | null;
   fixed_monthly_amount: number | null;
+  export type Goal = {
+  id: string;
+  name: string;
+  target_amount: number | null;
+  target_date: string | null;
+  current_amount: number;
+  strategy: GoalStrategy;
+  priority_rank: number | null;
+  weight: number | null;
+  fixed_monthly_amount: number | null;
+  monthly_contribution_cap: number | null;
 };
