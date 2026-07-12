@@ -39,6 +39,7 @@ class GoalCreate(BaseModel):
     priority_rank: Optional[int] = None
     weight: Optional[float] = None
     fixed_monthly_amount: Optional[float] = None
+    monthly_contribution_cap: Optional[float] = None
 
 
 class CategoryUpdate(BaseModel):

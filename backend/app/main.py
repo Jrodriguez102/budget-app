@@ -13,7 +13,8 @@ from sqlmodel import Session, select
 
 from app.database import create_db_and_tables, engine
 from app.models import Income, FixedExpense, Goal, VariableExpenseCategory, CategoryKey
-from app.schemas import IncomeCreate, FixedExpenseCreate, GoalCreate, CategoryUpdate
+from app.schemas import IncomeCreate, FixedExpenseCreate, GoalCreate, CategoryUpdate, Plan as PlanSchema
+from app.engine import compute_plan
 
 
 @asynccontextmanager
@@ -164,10 +165,12 @@ def update_category(key: CategoryKey, payload: CategoryUpdate):
 
 # ---- Plan (the actual point of the app) ----
 
-@app.get("/plan")
+@app.get("/plan", response_model=PlanSchema)
 def get_plan():
-    # Allocation engine isn't built yet — this is the very next task.
-    raise HTTPException(
-        status_code=501,
-        detail="Allocation engine not yet implemented — see app/engine.py",
-    )
+    with Session(engine) as session:
+        incomes = session.exec(select(Income)).all()
+        fixed_expenses = session.exec(select(FixedExpense)).all()
+        goals = session.exec(select(Goal)).all()
+        categories = session.exec(select(VariableExpenseCategory)).all()
+
+    return compute_plan(incomes, fixed_expenses, goals, categories)

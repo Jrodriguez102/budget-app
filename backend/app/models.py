@@ -79,6 +79,13 @@ class Goal(SQLModel, table=True):
     weight: Optional[float] = None                # required if proportional_weight
     fixed_monthly_amount: Optional[float] = None   # required if fixed_amount
 
+    # Required for fund_first goals that have no target_date — caps how much
+    # gets funneled in per month so one open-ended goal can't silently
+    # starve other fund_first goals of all available money. Optional for
+    # every other case (ignored if target_date is set, since the date
+    # already determines pace).
+    monthly_contribution_cap: Optional[float] = None
+
 
 class VariableExpenseCategory(SQLModel, table=True):
     # key is the primary key — one row per category, always all 8 present.
