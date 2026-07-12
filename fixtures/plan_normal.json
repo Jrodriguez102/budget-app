@@ -16,8 +16,13 @@
       "projected_completion_date": "2030-06-01"
     },
     {
-      "goal_id": "goal_investing",
-      "monthly_contribution": 500,
+      "goal_id": "goal_investing_aggressive",
+      "monthly_contribution": 333,
+      "projected_completion_date": null
+    },
+    {
+      "goal_id": "goal_investing_passive",
+      "monthly_contribution": 167,
       "projected_completion_date": null
     }
   ],
