@@ -1,0 +1,35 @@
+{
+  "status": "normal",
+  "message": null,
+  "total_income": 4800,
+  "total_fixed_expenses": 2200,
+  "remaining_after_fixed": 2600,
+  "goal_contributions": [
+    {
+      "goal_id": "goal_emergency_fund",
+      "monthly_contribution": 900,
+      "projected_completion_date": "2027-02-01"
+    },
+    {
+      "goal_id": "goal_house_downpayment",
+      "monthly_contribution": 600,
+      "projected_completion_date": "2030-06-01"
+    },
+    {
+      "goal_id": "goal_investing",
+      "monthly_contribution": 500,
+      "projected_completion_date": null
+    }
+  ],
+  "remaining_after_goals": 600,
+  "category_suggestions": [
+    { "key": "groceries", "suggested_amount": 180, "favor_multiplier": 1.0 },
+    { "key": "dining_out", "suggested_amount": 120, "favor_multiplier": 1.0 },
+    { "key": "gas_transportation", "suggested_amount": 90, "favor_multiplier": 1.0 },
+    { "key": "entertainment", "suggested_amount": 60, "favor_multiplier": 1.0 },
+    { "key": "shopping", "suggested_amount": 60, "favor_multiplier": 1.0 },
+    { "key": "personal_care", "suggested_amount": 30, "favor_multiplier": 1.0 },
+    { "key": "travel", "suggested_amount": 30, "favor_multiplier": 1.0 },
+    { "key": "other", "suggested_amount": 30, "favor_multiplier": 1.0 }
+  ]
+}
